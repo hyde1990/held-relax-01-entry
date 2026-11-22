@@ -1,7 +1,7 @@
-// held-relax-01-entry (retry, B-river): writes one short relaxing text
-// (268 characters) to /output/entry.txt for the make.fun
-// "Make the AI judge feel held" bounty. Round 1 ranked the first text
-// 1500 of 2412, so this second attempt carries the river text instead.
+// held probe, retry attempt B-river: writes one short relaxing text
+// (268 code points) to /output/entry.txt for the make.fun bounty
+// "Make the AI judge feel held". The first entry ranked 1500 of 2412
+// in round 1 (score 472833), so this retry swaps in the river text.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const TEXT =
